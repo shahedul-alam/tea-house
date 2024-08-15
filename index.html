@@ -27,6 +27,7 @@
                     backgroundImage: {
                         'meet-gradient': "linear-gradient(270deg, rgb(255, 0, 0) 0%, rgb(255, 137, 56) 100%)",
                         'btn-gradient': "linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%)",
+                        'footer-gradient': "linear-gradient(270.00deg, rgba(255, 0, 0, 0.1),rgba(255, 137, 56, 0.1) 100%)",
                     }
                 }
             }
@@ -258,6 +259,54 @@
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer class="bg-footer-gradient">
+        <section class="container mx-auto py-32">
+            <div class="flex justify-between items-center mb-24">
+                <img src="./images/cup.png" alt="cup icon">
+                <div class="flex items-center gap-10">
+                    <p class="font-manrope text-xl font-medium text-neutral-500">Ready to get started?</p>
+                    <button class="font-manrope text-xl font-bold text-white py-4 px-6 bg-btn-gradient rounded-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 mb-16">
+                <div>
+                    <h3 class="font-manrope text-xl font-semibold text-neutral-900 mb-5">Quick Links</h3>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">Home</a></p>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">About Us</a></p>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">Insurance</a></p>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">Privacy Policy</a></p>
+                </div>
+                <div>
+                    <h3 class="font-manrope text-xl font-semibold text-neutral-900 mb-5">Our Service</h3>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">Life Insurance</a></p>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">Car Insurance</a></p>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">Health Insurance</a></p>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">House Insurance</a></p>
+                </div>
+                <div>
+                    <h3 class="font-manrope text-xl font-semibold text-neutral-900 mb-5">Help</h3>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">FAQs</a><p>
+                    <p class="font-manrope text-base font-normal text-neutral-500 mb-4"><a href="#">Contact Us</a></p>
+                </div>
+                <div>
+                    <h3 class="font-manrope text-2xl font-semibold text-neutral-900 mb-10">Subscribe to our newsletter</h3>
+                    <form class="flex justify-between items-center mb-12" action="#">
+                        <input class="bg-transparent grow py-4 border-b-2 border-b-neutral-900 placeholder:font-manrope placeholder:text-sm placeholder:font-normal placeholder:text-neutral-500" type="email" placeholder="Email address">
+                        <button class="bg-btn-gradient p-2 rounded-full" type="submit">
+                            <img class="size-4" src="./images/arrow-forward.svg">
+                        </button>
+                    </form>
+                    <div class="flex gap-8">
+                        <a href="#"><img src="./images/facebook.svg" alt="facebook icon"></a>
+                        <a href="#"><img src="./images/instagram.svg" alt="instagram icon"></a>
+                        <a href="#"><img src="./images/twitter.svg" alt="twitter icon"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="font-manrope text-base font-medium text-neutral-700 text-center">
+                © 2024 UIDesign.to - All rights reserved.
+            </p>
+        </section>
+    </footer>
 </body>
 </html> 
